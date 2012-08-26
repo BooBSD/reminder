@@ -52,7 +52,6 @@ Events
 * '15 minutes'
 * '20 minutes'
 * '30 minutes'
-
 * 'hour'
 * '2 hours'
 * '3 hours'
