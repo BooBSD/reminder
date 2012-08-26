@@ -1,0 +1,16 @@
+{
+  "name": "reminder",
+  "description": "Simple scheduler",
+  "version": "0.1.0",
+  "author": "Artem Gnilov <boobsd@gmail.com>",
+  "homepage": "https://github.com/BooBSD/reminder",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BooBSD/reminder.git"
+  },
+  "main": "index",
+  "keywords": ["timer", "clock", "periodic", "remind", "schedule"],
+  "engines": {
+    "node": "*"
+  }
+}
