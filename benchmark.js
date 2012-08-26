@@ -18,7 +18,6 @@ for(var i = 0; i < maxListeners; i++) {
 remind.every('minute', function(date) {
     var t = setTimeout(function() {
         console.log('Max latency: ' + maxLatency + ' ms');
-        console.log
         maxLatency = 0;
     }, 1000);
 });
