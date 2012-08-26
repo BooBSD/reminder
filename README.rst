@@ -19,24 +19,24 @@ Quick start
 
 Initializing the reminder::
 
-	var Reminder = require('reminder');
-	var remind = new Reminder();
+    var Reminder = require('reminder');
+    var remind = new Reminder();
 
 Adding the few tasks::
 
-	remind.every('5 minutes', function(date) {
-		console.log("Close the Twitter and start to work!");
-	});
+    remind.every('5 minutes', function(date) {
+        console.log("Close the Twitter and start to work!");
+    });
 
-	remind.every('4 hours', function(date) {
-		console.log("It\'s time to eat something!");
-	});
+    remind.every('4 hours', function(date) {
+        console.log("It\'s time to eat something!");
+    });
 
 Also you may add the task that should be done only once::
 
-	remind.at('07:45', function(date) {
-		console.log("Wake up! You have an interview at 9 AM.")
-	});
+    remind.at('07:45', function(date) {
+        console.log("Wake up! You have an interview at 9 AM.")
+    });
 
 Events
 ------
